@@ -1,26 +1,30 @@
 //javascript  addition operator
-var a = 14;
-var b = 26;
-var cal = a + b;
-alert (cal);
-
+function add(a,b){
+var add = a + b;
+return console.log(add);
+}
+add(14,26);
 
 //js subtration operator
-var a = 14;
-var b = 26;
-var cal = a - b;
-alert(cal);
+function sub(a,b){
+var sub = b-a;
+return console.log(sub);
+}
+sub(14,26);
 
 
 //js multiplication operator
-var a = 14;
-var b = 26;
-var cal = a * b;
-alert(cal);
+function multiply(a,b){
+var multiply = a*b;
+return console.log(multiply);
+}
+multiply(14,26);
+
 
 
 //js division operator
-var a = 14;
-var b = 26;
-var cal = a / b;
-alert(cal);
+function division(a,b){
+var division = a/b;
+return console.log(division);
+}
+division(14,2);
