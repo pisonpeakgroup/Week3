@@ -6,7 +6,7 @@ describe("MathUtils", function() {
         calc = new MathUtils();
     });
  
-    describe("when calc is used to peform basic math operations", function(){
+    describe("MathUtils", function(){
          
         //Spec for sum operationjasmine
             it("should be able to calculate sum of 3 and 5", function() {
@@ -24,5 +24,4 @@ describe("MathUtils", function() {
     //Spec for Addition operation
     it("should be able to calculate addition of 10 and 5", function() {
         expect(calc.add(10,5)).toEqual(15);
-    });
-});
+    })})});
