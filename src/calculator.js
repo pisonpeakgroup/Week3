@@ -1,22 +1,22 @@
-//javascript  addition operator
+// Click run to begin the lesson//javascript  addition operator
 function add(a,b){
-var add = a + b;
-return console.log(add);
+var addn = a + b;
+return console.log(addn);
 }
 add(14,26);
 
 //js subtration operator
 function sub(a,b){
-var sub = b-a;
-return console.log(sub);
+var subt = b-a;
+return console.log(subt);
 }
 sub(14,26);
 
 
 //js multiplication operator
 function multiply(a,b){
-var multiply = a*b;
-return console.log(multiply);
+var mult = a*b;
+return console.log(mult);
 }
 multiply(14,26);
 
@@ -24,7 +24,7 @@ multiply(14,26);
 
 //js division operator
 function division(a,b){
-var division = a/b;
-return console.log(division);
+var divide = a/b;
+return console.log(divide);
 }
 division(14,2);
